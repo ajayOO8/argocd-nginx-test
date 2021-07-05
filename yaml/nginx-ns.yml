@@ -6,5 +6,5 @@ metadata:
     argocd.argoproj.io/hook: PreSync
     argocd.argoproj.io/sync-wave: "-5"
     argocd.argoproj.io/sync-options: Prune=false
- name: nginx-ns
+  name: nginx-ns
 
