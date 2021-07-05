@@ -6,7 +6,7 @@ metadata:
   name: nginx
   namespace: nginx-ns
   annotations:
-  argocd.argoproj.io/hook: Sync
+    argocd.argoproj.io/hook: Sync
 spec:
   replicas: 1
   selector:
