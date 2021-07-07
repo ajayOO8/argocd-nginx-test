@@ -5,9 +5,9 @@ metadata:
     app: nginx
   name: nginx
   namespace: nginx-ns
-  annotations:
-    argocd.argoproj.io/hook: PostSync
-    argocd.argoproj.io/sync-wave: "1"
+  #annotations:
+  ##  argocd.argoproj.io/hook: PostSync
+  # argocd.argoproj.io/sync-wave: "1"
 spec:
   ports:
   - port: 80
