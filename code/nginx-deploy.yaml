@@ -3,13 +3,12 @@ kind: Deployment
 metadata:
   labels:
     app: nginx
-    a: b
   name: nginx
   namespace: nginx-ns
   annotations:
     argocd.argoproj.io/hook: Sync
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: nginx
