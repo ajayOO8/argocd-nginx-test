@@ -3,7 +3,7 @@ kind: Namespace
 metadata:
   annotations:    
     argocd.argoproj.io/hook: Sync
-    #argocd.argoproj.io/sync-wave: "-5"
+    argocd.argoproj.io/sync-wave: "-5"
   #  argocd.argoproj.io/sync-options: Prune=false
   name: nginx-ns
 
