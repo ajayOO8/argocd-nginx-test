@@ -4,5 +4,7 @@ metadata:
   annotations:    
     argocd.argoproj.io/hook: PreSync
     argocd.argoproj.io/sync-wave: "-5"
+    argocd.argoproj.io/hook-delete-policy: HookSucceeded
+
   name: nginx-ns
 
