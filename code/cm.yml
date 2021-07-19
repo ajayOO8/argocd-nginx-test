@@ -1,0 +1,20 @@
+apiVersion: v1
+data:
+  testconfigmap: |
+    test:
+      config:
+      - 127.0.0.1
+      - localhost
+      - 192.168.49.2
+      
+    dns:
+      type: CoreDNS
+   
+kind: ConfigMap
+
+
+metadata:
+  namespace: nginx-ns
+  annotations:
+    argocd.argoproj.io/hook: Sync
+    argocd.argoproj.io/sync-wave: "2"
