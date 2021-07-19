@@ -1,0 +1,5 @@
+metadata:
+  annotations: 
+    foo: "bar"    
+    argocd.argoproj.io/hook: 
+    argocd.argoproj.io/sync-wave: 
