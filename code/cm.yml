@@ -15,6 +15,7 @@ kind: ConfigMap
 
 metadata:
   namespace: nginx-ns
+  name: testconfigmap
   annotations:
     argocd.argoproj.io/hook: Sync
     argocd.argoproj.io/sync-wave: "2"
